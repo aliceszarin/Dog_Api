@@ -10,4 +10,4 @@ resposta = requests.get(endpoint)
 
 dog_api = resposta.json()
 
-print ('Olha que loco esse dog ', dog_api)
+print ('Olha que legal esse dog: ', dog_api)
